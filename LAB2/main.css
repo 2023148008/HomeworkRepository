@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+  height: 100vh;
+}
+
+h1 .highlight {
+  font-weight: bold;
+  color: black;
+}
+
+.links {
+  margin: 20px 0;
+}
+
+.join-link {
+  color: blue;
+  text-decoration: underline;
+}
+
+.box {
+  width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.row label {
+  width: 100px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.row input {
+  flex: 1;
+  padding: 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.login-btn {
+  background-color: lightgreen;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+}
